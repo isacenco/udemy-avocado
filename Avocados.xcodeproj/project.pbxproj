@@ -16,6 +16,8 @@
 		E157E4B82EB12864004150BA /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E157E4B72EB12864004150BA /* SettingsView.swift */; };
 		E157E4BA2EB12879004150BA /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E157E4B92EB12879004150BA /* AppView.swift */; };
 		E157E4D12EB12EC0004150BA /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E157E4D02EB12EC0004150BA /* HeaderView.swift */; };
+		E157E4D32EB242D4004150BA /* HeaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E157E4D22EB242D4004150BA /* HeaderModel.swift */; };
+		E157E4D52EB2430E004150BA /* HeaderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E157E4D42EB2430E004150BA /* HeaderData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		E157E4B72EB12864004150BA /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		E157E4B92EB12879004150BA /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		E157E4D02EB12EC0004150BA /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		E157E4D22EB242D4004150BA /* HeaderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderModel.swift; sourceTree = "<group>"; };
+		E157E4D42EB2430E004150BA /* HeaderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,7 @@
 		E157E4B02EB12808004150BA /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				E157E4D42EB2430E004150BA /* HeaderData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -81,6 +86,7 @@
 		E157E4B12EB1280D004150BA /* Movel */ = {
 			isa = PBXGroup;
 			children = (
+				E157E4D22EB242D4004150BA /* HeaderModel.swift */,
 			);
 			path = Movel;
 			sourceTree = "<group>";
@@ -177,6 +183,8 @@
 				E157E4B62EB12855004150BA /* RipeningStagesView.swift in Sources */,
 				E157E4AF2EB12805004150BA /* ContentView.swift in Sources */,
 				E157E4B42EB1283F004150BA /* AvocadosView.swift in Sources */,
+				E157E4D32EB242D4004150BA /* HeaderModel.swift in Sources */,
+				E157E4D52EB2430E004150BA /* HeaderData.swift in Sources */,
 				E157E4D12EB12EC0004150BA /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
