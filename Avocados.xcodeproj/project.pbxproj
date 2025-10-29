@@ -29,6 +29,8 @@
 		E157E4E72EB2628D004150BA /* RecipeCookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E157E4E62EB2628D004150BA /* RecipeCookingView.swift */; };
 		E157E4E92EB26309004150BA /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E157E4E82EB26309004150BA /* RecipeDetailView.swift */; };
 		E157E4EB2EB26C29004150BA /* RipeningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E157E4EA2EB26C29004150BA /* RipeningView.swift */; };
+		E157E4ED2EB27248004150BA /* RipeningModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E157E4EC2EB27248004150BA /* RipeningModel.swift */; };
+		E157E4EF2EB2728F004150BA /* RipeningData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E157E4EE2EB2728F004150BA /* RipeningData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +57,8 @@
 		E157E4E62EB2628D004150BA /* RecipeCookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCookingView.swift; sourceTree = "<group>"; };
 		E157E4E82EB26309004150BA /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
 		E157E4EA2EB26C29004150BA /* RipeningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningView.swift; sourceTree = "<group>"; };
+		E157E4EC2EB27248004150BA /* RipeningModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningModel.swift; sourceTree = "<group>"; };
+		E157E4EE2EB2728F004150BA /* RipeningData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,7 @@
 				E157E4D42EB2430E004150BA /* HeaderData.swift */,
 				E157E4DC2EB2537F004150BA /* FactData.swift */,
 				E157E4E02EB25CB7004150BA /* RecipeData.swift */,
+				E157E4EE2EB2728F004150BA /* RipeningData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -113,6 +118,7 @@
 				E157E4D22EB242D4004150BA /* HeaderModel.swift */,
 				E157E4DA2EB2534B004150BA /* FactModel.swift */,
 				E157E4DE2EB25C66004150BA /* RecipeModel.swift */,
+				E157E4EC2EB27248004150BA /* RipeningModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -212,8 +218,10 @@
 			files = (
 				E157E4B82EB12864004150BA /* SettingsView.swift in Sources */,
 				E157E4E52EB26227004150BA /* RecipeRatingView.swift in Sources */,
+				E157E4ED2EB27248004150BA /* RipeningModel.swift in Sources */,
 				E157E4DF2EB25C66004150BA /* RecipeModel.swift in Sources */,
 				E157E4AE2EB12805004150BA /* AvocadosApp.swift in Sources */,
+				E157E4EF2EB2728F004150BA /* RipeningData.swift in Sources */,
 				E157E4BA2EB12879004150BA /* AppView.swift in Sources */,
 				E157E4B62EB12855004150BA /* RipeningStagesView.swift in Sources */,
 				E157E4AF2EB12805004150BA /* ContentView.swift in Sources */,
