@@ -28,6 +28,7 @@
 		E157E4E52EB26227004150BA /* RecipeRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E157E4E42EB26227004150BA /* RecipeRatingView.swift */; };
 		E157E4E72EB2628D004150BA /* RecipeCookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E157E4E62EB2628D004150BA /* RecipeCookingView.swift */; };
 		E157E4E92EB26309004150BA /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E157E4E82EB26309004150BA /* RecipeDetailView.swift */; };
+		E157E4EB2EB26C29004150BA /* RipeningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E157E4EA2EB26C29004150BA /* RipeningView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		E157E4E42EB26227004150BA /* RecipeRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeRatingView.swift; sourceTree = "<group>"; };
 		E157E4E62EB2628D004150BA /* RecipeCookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCookingView.swift; sourceTree = "<group>"; };
 		E157E4E82EB26309004150BA /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
+		E157E4EA2EB26C29004150BA /* RipeningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 				E157E4E42EB26227004150BA /* RecipeRatingView.swift */,
 				E157E4E62EB2628D004150BA /* RecipeCookingView.swift */,
 				E157E4E82EB26309004150BA /* RecipeDetailView.swift */,
+				E157E4EA2EB26C29004150BA /* RipeningView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 				E157E4D32EB242D4004150BA /* HeaderModel.swift in Sources */,
 				E157E4D52EB2430E004150BA /* HeaderData.swift in Sources */,
 				E157E4E72EB2628D004150BA /* RecipeCookingView.swift in Sources */,
+				E157E4EB2EB26C29004150BA /* RipeningView.swift in Sources */,
 				E157E4D72EB246B3004150BA /* DishesView.swift in Sources */,
 				E157E4DB2EB2534B004150BA /* FactModel.swift in Sources */,
 				E157E4E32EB25D49004150BA /* RecipeCardView.swift in Sources */,

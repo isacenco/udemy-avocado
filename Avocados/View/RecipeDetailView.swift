@@ -10,6 +10,8 @@ import SwiftUI
 struct RecipeDetailView: View {
     // MARK: - PROPERTIES
     
+    @Environment(\.presentationMode) var presentationMode
+    
     var recipe: Recipe
     @State private var pulsate: Bool = false
 
@@ -85,7 +87,7 @@ struct RecipeDetailView: View {
                 
                 VStack {
                     Button {
-                        // ACTION
+                        presentationMode.wrappedValue.dismiss()
                     } label: {
                         Image(systemName: "chevron.down.circle.fill")
                             .font(.title)
